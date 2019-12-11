@@ -99,7 +99,7 @@ body {
 
 #pave {
 	width: 100vw;
-	height: 170vh;
+	height: 190vh;
 }
 
 ::-webkit-scrollbar {
@@ -111,4 +111,13 @@ body {
 	text-align: center;
 	font-size: 3vh;
 	width: 50vw;
+}
+
+#question {
+	margin-top: 10vh;
+	font-size: 10vh;
+}
+
+.butohn {
+	margin-top: 25vh;
 }
