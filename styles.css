@@ -70,11 +70,15 @@ body {
 }
 
 .paved {
-	padding-top: 15vh;
+	padding-top: 25vh;
+}
+
+.explanation {
+
 }
 
 #leavepics {
-	padding-top: 10vh;
+	padding-top: 5vh;
 	text-align: center;
 }
 
@@ -88,9 +92,14 @@ body {
 	height: 120vh;
 }
 
+#explanation {
+	width: 100vw;
+	height: 100vh;
+}
+
 #pave {
 	width: 100vw;
-	height: 120vh;
+	height: 170vh;
 }
 
 ::-webkit-scrollbar {
@@ -98,6 +107,7 @@ body {
 }
 
 .text {
+	margin-top: 4vh;
 	text-align: center;
 	font-size: 3vh;
 	width: 50vw;

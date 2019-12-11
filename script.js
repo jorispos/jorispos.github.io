@@ -1,3 +1,5 @@
+AOS.init();
+
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $(this).scrollTop(0);
