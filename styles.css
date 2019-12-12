@@ -2,6 +2,18 @@ body {
 	overflow-x: hidden;
 }
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 #top {
 	overflow: hidden;
 	overflow-x: hidden;
@@ -27,6 +39,7 @@ body {
 .hoverboard {
 	margin-top: 15vh;
 	width: 100vh;
+	animation: float 6s ease-in-out infinite;
 }
 
 .fa {
