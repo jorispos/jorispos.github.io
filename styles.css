@@ -115,10 +115,6 @@ body {
 	height: 190vh;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 .text {
 	margin-top: 4vh;
 	text-align: center;
