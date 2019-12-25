@@ -1,0 +1,4 @@
+AuthName "bounce"
+AuthUserFile "/home1/jorispos/.htpasswds/public_html/bounce/passwd"
+AuthType Basic
+require valid-user

@@ -1,0 +1,12 @@
+{
+"companyName": "JorisGames",
+"productName": "BruceYee",
+"dataUrl": "3DGame.data.unityweb",
+"wasmCodeUrl": "3DGame.wasm.code.unityweb",
+"wasmFrameworkUrl": "3DGame.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

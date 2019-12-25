@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "io"
+AuthUserFile "/home1/jorispos/.htpasswds/public_html/io/passwd"
+require valid-user

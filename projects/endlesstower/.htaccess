@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "endlesstower"
+AuthUserFile "/home1/jorispos/.htpasswds/public_html/endlesstower/passwd"
+require valid-user

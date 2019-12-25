@@ -1,0 +1,219 @@
+body {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+	position: relative;
+	min-height: 110vh;
+	overflow: hidden;
+}
+
+.header video {
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+	min-width: 100vw;
+	min-height: 110vh;
+	width: auto;
+	height: auto;
+}
+
+.colorOverlay {
+	position: absolute;
+	background: rgba(39,62,84,0.82);
+	top: 0;
+	left: 0;
+	min-width: 100vw;
+	min-height: 110vh;
+	z-index: 1;
+}
+
+.textOverlay {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	z-index: 3;
+	position: absolute;
+	width: 90%;
+	height:50vh;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -60%);
+}
+
+.textOverlay h1 {
+	color: white;
+	font-size: 150px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.textOverlay h2 {
+	margin-top: 0;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+.bottomTextOverlay {
+	color: white;
+	z-index: 3;
+	position: absolute;
+	width: 100vw;
+	height:20vh;
+	top: 102vh;
+  	left: 0;
+  	text-align: center;
+}
+
+/*CONTENT*/
+
+.projects {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0px;
+}
+
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 0px;
+}
+
+.top {
+	margin-bottom:0;
+	margin-top:0;
+	transform: translate(0px, 102vh);
+}
+
+.project {
+	position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease-in;
+  background-color: grey;
+}
+
+.project:hover .overlay {
+	opacity: 0.8;
+}
+
+.project img {
+	width: 100%;
+	margin-top: 0px;
+	vertical-align: middle;
+	transition: all 0.5s;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.subtext {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	width: 75%;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.downloadButton {
+	color: white;
+	background-color: #42f465;
+	font-size: 15px;
+	position: absolute;
+	width: 25%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.playButton {
+	color: white;
+	background-color: #ff595e;
+	font-size: 15px;
+	position: absolute;
+	width: 25%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.content h1 {
+	margin-top: 10px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.top h1 {
+	margin-top: 10px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.bio {
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 0px;
+	padding-bottom: 100px;
+}
+
+.bio p {
+	font-size: 0px;
+}
+
+@media screen and (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+	.textOverlay h1 {
+		font-size: 90px;
+	}
+	.textOverlay h2 {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}

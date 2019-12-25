@@ -1,0 +1,155 @@
+body {
+	background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+	background: -moz-linear-gradient(top, #ff3232 0%, #fcf528 16%, #28fc28 32%, #28fcf8 50%, #272ef9 66%, #ff28fb 82%, #ff3232 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#fcf528), color-stop(32%,#28fc28), color-stop(50%,#28fcf8), color-stop(66%,#272ef9), color-stop(82%,#ff28fb), color-stop(100%,#ff3232));
+	background: -webkit-linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+	background-size: 1000%;
+	-moz-background-size: 1000%;
+	-webkit-background-size: 1000%;	
+
+	animation-name: fun-time-awesome;
+	animation-duration: 40s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+
+	-moz-animation-name: fun-time-awesome;
+	-moz-animation-duration: 40s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-play-state: running;
+
+	-webkit-animation-name: fun-time-awesome;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+@keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+@-moz-keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+@-webkit-keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 100px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h3 {
+	margin-top: -20px;
+	padding-top: -20px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+	text-align: center;
+	display: block;
+    margin: 0 auto;
+    margin-top:20px;
+
+    user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+p {
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 20px;
+}
+
+#downloadButton {
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-right:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	background-color: #42f448;
+	border: 5px;
+}
+
+#sourceButton {
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	background-color: #ff5b5b;
+	border: 5px;
+}
+
+#algorithmButton {
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin-left: 15px;
+	padding-right: 40px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	background-color: #f4c242;
+	border: 5px;
+}
+
+h4 {
+	text-align:right;
+	margin-bottom:0px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -1,70 +1,218 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hover</title>
-	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<title>Joris Postmus | Game Developer & Programmer</title>
+	<meta name="description" content="Portfolio of Joris Postmus, a game developer and programmer. Get inspired and play games. Downloadable games as well as playable HTML games can be found here.">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<div id = "top" class="text-center">
-		<h1 id = "logo" class="animated fadeInDownBig">HOVER</h1>
-		<div id="hoverburd" class="animated fadeInLeft">
-			<img src="hoverboard.png" class = "hoverboard">
+	<div class = "header">
+		<div class="video"></div>
+			<video autoplay loop muted poster="res/thumbnails/baconbrawl-thumbnail.png">
+			<source src="res/pics/trailervid.mp4" type="video/mp4">
+		</video>
+		<div class="colorOverlay"></div>
+		<div class="textOverlay">
+			<h1 class="animated zoomIn">Joris Postmus</h1>
+			<h2 class="animated zoomIn">Game Developer and Programmer</h2>
 		</div>
-		<div id="socialmedia" class="">
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
-			<a href="https://www.instagram.com/hover.ca/" target=”_blank” class="fa fa-instagram"></a>
-			<a href="#" class="fa fa-youtube"></a>
-		</div>
-		<a href="#introdcing"><h3 id = "discover" class="">Discover the Hover</h3></a>
-	</div>
-
-	<div id="intro" class="animated">
-		<h2 class="text-center paved animated" data-aos="fade-up" id="introdcing">Introducing the world's first real hoverboard</h2>
-		<div id="leavepics">
-			<img src="board2.png" data-aos="fade-right" class="leavepic animated" width="400">
-			<img src="board1.png" data-aos="fade-left" class="leavepic animated" width="400">
-		</div>
-		<center><h3 class="text" data-aos="fade-up">It is finally here and it is even better than predicted in the movies. Our hoverboard is super easy to control, all you have to do is lean in the direction in which you want to go. The board is equiped with high tech technology to ensure the safety of all users.</h3></center>
-	</div>
-
-	<div id="explanation" class="animated">
-		<h2 class="text-center explain animated" data-aos="fade-up">How it works</h2>
-		<div id="leavepics">
-			<img src="magnet.jpg" data-aos="fade-right" class="leavepic animated" width="400">
-			<img src="board1.png" data-aos="fade-left" class="leavepic animated" width="400">
-		</div>
-		<center><h3 class="text" data-aos="fade-up">At hover we have discovered a way to harness the magnetic energy produced naturally by our very own earth. Our revolutionary magnet found at the bottom of every board is able to repell this energy allowing it to hover above the ground. Thanks to the micro-chips found on board, the hoverboard is always safe to use.<br><br>In order to ride the board, the user simply has to lean in the direction in which they intend to go. The board can be turned off and on using voice control causing it to slowly descend/ascend. While hovering over the surface the board levitates 10-20cm above the ground, this can differ based on the weight of the user.</h3></center>
-	</div>
-
-	<div id="pave" class="animated">
-		<h2 class="text-center paved" data-aos="fade-up">Never rely on paved roads again</h2>
-		<div id="leavepics">
-			<img src="fall.gif" data-aos="fade-right" class="leavepic" width="400">
-			<img src="Road.jpg" data-aos="fade-left" class="leavepic" width="400">
-			<br>
-			<img src="arrow.png" data-aos="zoom-in" class="leavepic" width="100">
-			<br>
-			<img src="Lake.jpg" data-aos="fade-right" class="leavepic" width="400">
-			<img src="Forest.jpg" data-aos="fade-left" class="leavepic" width="400">
-			<br>
-			<center><h3 class="text" data-aos="fade-up">With our hover you are no longer confined to the roads, since our hoverboard does not need to be in contact with the ground it is able to manouvre over any terrain.</h3><br><h3 class="text" data-aos="fade-up"><b>Imagine the posibillities</b></h3></center>
+		<div class="bottomTextOverlay">
+			<h1 class="animated zoomIn">Latest Projects:</h1>
 		</div>
 	</div>
-	<div id = "top" class="text-center">
-		<h1 id = "question" class="animated fadeInDownBig">So what are you waiting for?</h1>
-		<a href="joke.html"><button type="button" class="butohn btn btn-primary btn-lg" data-aos="fade-up">Order Now</button></a><br>
-		<img src="hoverboard.png" class = "hoverboard" data-aos="fade-up">
+	<div class = "content">
+		<div class="projects">
+			<div class="column">
+				<div class="project">
+					<img src="res/thumbnails/baconbrawl-thumbnail.png" alt="Bacon Brawl">
+					<div class="overlay">
+						<div class="text">Bacon Brawl</div>
+						<div class="subtext">Local Multiplayer game i made when i was 12 years old. The objective is to capture each others bacon and return it to your own base.</div>
+						<div class="downloadButton"><a href="downloads/baconbrawl.exe">Download</a></div>
+					</div>
+				</div>
+				<div class="project">
+					<img src="res/thumbnails/bal-thumbnail.png" alt="Bal">
+					<div class="overlay">
+						<div class="text">Bal</div>
+						<div class="subtext">Bal is an arcade game where you play as a ball and various enemies  are coming towards you. The objective is to stay alive as long as possible</div>
+						<div class="downloadButton"><a href="downloads/bal.exe">Download</a></div>
+					</div>
+				</div>
+				<div class="project">
+					<img src="res/thumbnails/bounce-thumbnail.png" alt="Bounce">
+					<div class="overlay">
+						<div class="text">Bounce</div>
+						<div class="subtext">Bounce is an arcade game where you place as a monster who's goal is to shoot a projectile that makes it to the end dodging all obstacles.</div>
+						<div class="playButton"><a href="projects/bounce/">Play Game</a></div>
+					</div>
+				</div>
+				<div class="project">
+					<img src="res/thumbnails/ai-thumbnail.png" alt="Artificial Intelligence - Ant Colony">
+					<div class="overlay">
+						<div class="text">AI</div>
+						<div class="subtext">Simulation i created inspired by ant colonies in the real world. Every dot represents a person that has to fight to stay alive.</div>
+						<div class="playButton"><a href="projects/ai/">Visit Page</a></div>
+					</div>
+				</div>
+				<div class="project">
+					<img src="res/thumbnails/meathunt-thumbnail.png" alt="Meathunt">
+					<div class="overlay">
+						<div class="text">Meathunt</div>
+						<div class="subtext">You're a farmer and all your cows have gone crazy. All you have is your shotgun, can you survive?</div>
+						<div class="playButton">Coming Soon</div>
+					</div>
+				</div>
+				<div class="project"><a href="https://jorisgame.netlify.com/" target="_blank">
+					<img src="res/thumbnails/jorisgame-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Joris Game</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/shrenk-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Shrenk</div>
+					</div></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="project"><a href="">
+					<img src="res/thumbnails/bp-thumbnail.png">
+					<div class="overlay">
+						<div class="text">BP</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="projects/dodgo/" target="_blank">
+					<img src="res/thumbnails/dodgo-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Dodgo</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="projects/jpcode">
+					<img src="res/thumbnails/jpcode-thumbnail.png">
+					<div class="overlay">
+						<div class="text">JPCode</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="downloads/fps-joris.exe">
+					<img src="res/thumbnails/fpsjoris-thumbnail.png">
+					<div class="overlay">
+						<div class="text">FPS Joris</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/gtj-thumbnail.png">
+					<div class="overlay">
+						<div class="text">GTJ</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/airspace-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Air Space</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="downloads/tinyworld.exe">
+					<img src="res/thumbnails/tinyworld-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Tiny World</div>
+					</div></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="project"><a href="downloads/multy-fly.exe">
+					<img src="res/thumbnails/multyfly-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Multy Fly</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="projects/on-the-run">
+					<img src="res/thumbnails/ontherun-thumbnail.png">
+					<div class="overlay">
+						<div class="text">On The Run</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="downloads/Parmour.exe">
+					<img src="res/thumbnails/parmour-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Parmour</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/waves-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Waves</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="downloads/Speed1.6.exe">
+					<img src="res/thumbnails/speed-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Speed</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="projects/mazechallenge">
+					<img src="res/thumbnails/aimaze-thumbnail.png">
+					<div class="overlay">
+						<div class="text">AI Maze</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/dragonadventure-thumbnail.jpg">
+					<div class="overlay">
+						<div class="text">Dragon Adventure</div>
+					</div></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="project"><a href="">
+					<img src="res/thumbnails/pirateadventure-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Pirate Adventure</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="http://savagerunner.netlify.com">
+					<img src="res/thumbnails/savagerunner-thumbnail.png" target="_blank">
+					<div class="overlay">
+						<div class="text">Savage Runner</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="projects/towerblock">
+					<img src="res/thumbnails/towerblock-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Tower Block</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/themaze-thumbnail.png">
+					<div class="overlay">
+						<div class="text">The Maze</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/chase-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Chase</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/cubey-thumbnail.jpg">
+					<div class="overlay">
+						<div class="text">Cubey</div>
+					</div></a>
+				</div>
+				<div class="project"><a href="">
+					<img src="res/thumbnails/boat-thumbnail.png">
+					<div class="overlay">
+						<div class="text">Boat</div>
+					</div></a>
+				</div>
+			</div>	
+		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

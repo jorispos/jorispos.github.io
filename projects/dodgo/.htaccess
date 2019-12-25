@@ -1,0 +1,2 @@
+AuthName "Please login to view files"
+AuthUserFile "/home1/jorispos/.htpasswds/public_html/projects/dodgo/passwd"
