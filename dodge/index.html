@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JorDodge</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		body {
+			padding: 0px;
+			margin: 0px;
+			background-color: grey;
+			font-family: 'Roboto', sans-serif;
+		}
+	
+		canvas {
+			padding-left: 0;
+		    padding-right: 0;
+		    margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		}
+
+		@media (max-aspect-ratio: 25/19) {
+			canvas {
+				width: 100%;
+			}
+		}
+		@media (min-aspect-ratio: 25/19) {
+			canvas {
+				height: 100vh;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<script type="text/javascript" src="js/phaser.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<div id="gameDiv"></div>
+	<center>
+		<h1>HamboDodge</h1>
+		<h3>
+			Joris is very allergic to hamburgers and has accidentally walked into a burger king, <br>Use the arrow keys to move, 
+			the goal is to survive as long as possible.
+		</h3>
+	</center>
+</body>
+</html>
