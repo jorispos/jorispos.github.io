@@ -38,6 +38,7 @@ a {
 .textOverlay {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	z-index: 3;
 	position: absolute;
@@ -50,16 +51,18 @@ a {
 
 .textOverlay h1 {
 	color: white;
-	font-size: 150px;
+	font-size: 11vw;
 	text-align: center;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .textOverlay h2 {
 	margin-top: 0;
 	color: white;
-	font-size: 60px;
+	font-size: 4vw;
 	text-align: center;
+	margin-bottom: 0px;
 }
 
 .bottomTextOverlay {
@@ -109,7 +112,7 @@ a {
   background-color: grey;
 }
 
-.project:hover .overlay {
+.overlay:hover {
 	opacity: 0.8;
 }
 
@@ -124,35 +127,20 @@ a {
 	color: white;
 	font-size: 20px;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
 
 .subtext {
-	color: white;
-	font-size: 15px;
 	position: absolute;
-	width: 75%;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.downloadButton {
-	color: white;
-	background-color: #42f465;
-	font-size: 15px;
-	position: absolute;
-	width: 25%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 85%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
+	width: 15%;
+	height: 15%;
+	top: 5%;
+	left: 5%;
+	text-align: left;
+	z-index: 1;
 }
 
 .playButton {
@@ -202,12 +190,6 @@ a {
 	.column {
 		flex: 50%;
 		max-width: 50%;
-	}
-	.textOverlay h1 {
-		font-size: 90px;
-	}
-	.textOverlay h2 {
-		font-size: 35px;
 	}
 }
 
