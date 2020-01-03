@@ -204,3 +204,9 @@ a {
 		max-width: 25%;
 	}
 }
+
+@media (pointer:none), (pointer:coarse) {
+	.textOverlay {
+		top: 35%;
+	}
+}
