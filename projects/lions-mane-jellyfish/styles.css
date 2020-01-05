@@ -1,0 +1,207 @@
+h1 {
+	color: white;
+	font-size: 80px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin-top: 0px;
+	font-size: 30px;
+	color: lightgray;
+	margin-bottom: 75px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+h4 {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	background-image: url("wallpaper.jpg");
+	background-repeat:repeat-y;
+	background-position:top center;
+	background-attachment:fixed
+}
+
+p {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+button {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #263666;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#buttons {
+	margin-bottom: 40px;
+}
+
+img {
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+html,body { overflow-x: hidden; }
+
+.image {
+	border:2px solid #021a40;
+	height: 22vw;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+#taxonomy {
+	margin-left: 15%;
+	text-align: left;
+	margin-right: 15%;
+
+	display: flex;
+}
+
+#left {
+	width: 300px;
+}
+
+#treeImg {
+	height: 17vw;
+}
+
+#left2 {
+	width: 100%;
+	text-align: left;
+}
+
+#left3 {
+	width: 80%%;
+	text-align: left;
+}
+
+#right2 {
+	width: 110%;
+}
+
+#right {
+	width: 100%;
+}
+
+#geneticsImg {
+	width: 95%;
+}
+
+#geneticsText {
+	text-align: left;
+	margin-top: 0px;
+	align-self: center;
+}
+
+#topImages {
+	margin-bottom: 50px;
+}
+
+#slideshow {
+	height: 22vw;
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#evolutionDiv {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#structuresDiv {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#geneticsDiv {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#sourcesDiv {
+	margin-left: 33%;
+	margin-right: 27%;
+	word-wrap: normal;
+	text-align: left;
+	text-indent: -40px;
+}
+
+#twodivs {
+	display: flex;
+	align-items: center
+}
+
+#twodivs2 {
+	display: flex;
+	align-items: center;
+}
+
+#evolutionImg {
+	width: 32%;
+	height: auto;
+}
