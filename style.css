@@ -147,6 +147,16 @@ a {
 	z-index: 1;
 }
 
+.platform {
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	bottom: 10%;
+	right: 6%;
+	text-align: right;
+	z-index: 1;
+}
+
 .playButton {
 	color: white;
 	background-color: #ff595e;
