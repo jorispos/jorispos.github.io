@@ -76,6 +76,10 @@ a {
   	text-align: center;
 }
 
+.bottomTextOverlay h1 {
+	font-size: 2vw;
+}
+
 /*CONTENT*/
 
 .projects {
