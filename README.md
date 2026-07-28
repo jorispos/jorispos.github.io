@@ -1,5 +1,5 @@
-# Archived early portfolio
+# Early projects
 
-This repository contains an old game development portfolio by Joris Postmus, kept online for nostalgia and historical context.
+This repository contains early games and programming experiments by Joris Postmus, kept online as an archive.
 
-For current work, see [jorispos.com](https://www.jorispos.com/).
+For current work and writing, see [jorispos.com](https://www.jorispos.com/).
